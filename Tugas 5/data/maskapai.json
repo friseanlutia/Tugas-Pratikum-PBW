@@ -1,0 +1,50 @@
+[
+    {
+        "Maskapai": "Batik",
+        "bandara_keberangkatan": "Soekarno-Hatta (CGK)",
+        "bandara_tujuan": "Bandara Internasional Minangkabau (BIM)",
+        "Harga_tiket": "780000",
+        "Pajak": 100000,
+        "Total_harga": 880000
+    },
+    {
+        "Maskapai": "Lion Air",
+        "bandara_keberangkatan": "Halim Perdana Kusuma (HLP)",
+        "bandara_tujuan": "Bandara Internasional Minangkabau (BIM)",
+        "Harga_tiket": "650000",
+        "Pajak": 100000,
+        "Total_harga": 750000
+    },
+    {
+        "Maskapai": "Citilink",
+        "bandara_keberangkatan": "Ngurah Rai (DPS)",
+        "bandara_tujuan": "Bandara Internasional Minangkabau (BIM)",
+        "Harga_tiket": "700000",
+        "Pajak": 100000,
+        "Total_harga": 800000
+    },
+    {
+        "Maskapai": "Batik",
+        "bandara_keberangkatan": "Bandara Internasional Minangkabau (BIM)",
+        "bandara_tujuan": "Soekarno-Hatta (CGK)",
+        "Harga_tiket": "800000",
+        "Pajak": 100000,
+        "Total_harga": 900000
+    },
+    {
+        "Maskapai": "Lion Air",
+        "bandara_keberangkatan": "Bandara Internasional Minangkabau (BIM)",
+        "bandara_tujuan": "Halim Perdana Kusuma (HLP)",
+        "Harga_tiket": "700000",
+        "Pajak": 100000,
+        "Total_harga": 800000
+    },
+    {
+        "Maskapai": "Citilink",
+        "bandara_keberangkatan": "Bandara Internasional Minangkabau (BIM)",
+        "bandara_tujuan": "Ngurah Rai (DPS) ",
+        "Harga_tiket": "750000",
+        "Pajak": 100000,
+        "Total_harga": 850000
+    }
+]
