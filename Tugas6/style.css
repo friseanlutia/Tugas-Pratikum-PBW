@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Trebuchet;
+    scroll-behavior: smooth;
+}
+.navbar{
+    z-index: 4;
+    position: fixed;
+    background-color: transparent;
+    position: fixed;
+    transition: 0.6s;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.navbar-brand{
+    font-family: Trebuchet;
+    font-size: 32px;
+    padding-left: 70px;
+}
+.navbar .navbar-brand{
+    text-shadow: 1px 1px 1px rgb(6, 6, 6);
+    color: #fff;
+}
+.navbar-brand,.nav-link{
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(6, 6, 6);
+}
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+    text-shadow: 1px 1px 1px #fff; 
+}
+.nav-link:hover::after{
+    content:'';
+    display: flex;
+    border-bottom: 3px solid #fff;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px ;
+    margin-bottom:-8px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url(1.jpg) ;
+    background-size:cover;
+    text-align:center;
+    overflow: hidden;
+    background-attachment: fixed;
+    margin-top:-75px;
+    padding:1rem 1rem;
+    height: 800px;
+    position: relative;
+}
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+.jumbotron::after{
+    content:'';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.692), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.jumbotron .display-4{
+    color:rgb(252, 252, 252);
+    font-size:55px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    padding-top:200px;
+    font-weight: 500;
+    text-shadow: 3px 3px 3px rgba(10, 0, 0, 0.808);
+}
+
+.jumbotron .display-4 span{
+    font-size: 42px;
+}
+  
+/*Mahasiswa*/
+.mahasiswa .container{
+    color:rgb(0, 0, 0);
+    font-family: Trebuchet;
+    position: relative;
+    height: 10px;
+    width: 840px;
+}
+section{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.tombol{
+    text-align: left;
+}
+.btn{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+.tampil-data h2{
+    margin-bottom: 10px;
+}
+.tampil-data{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 85vh;
+}
+.tampil-data table{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+}
+.login{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.541);
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding-top:-50px;
+    z-index: 3;
+    margin-top: 20vh;
+}
+.login h3{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.login .btn{
+    margin-bottom: 20px;
+}
+
+/* Contact */
+.contact .container{
+    margin-top: 30px;
+    font-family: Trebuchet;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+}
+.form input{
+    width: 550px;
+}
+.form-control input:focus::placeholder{
+    color: transparent;
+}
+  
+/* Footer */
+.footer{
+    margin-top:50px;
+}
+.footer p{
+    color: #acacac;
+    font-size: 18px;
+}
