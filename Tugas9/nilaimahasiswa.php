@@ -19,8 +19,7 @@ if($query){
 }
 
 $respone = array(
-    'status' => "OK",
-    'msg' => $msg
+    'status' => "OK"
 );
 
 echo json_encode($respone,JSON_PRETTY_PRINT);
